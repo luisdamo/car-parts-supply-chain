@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=2" />
+	<link rel="shortcut icon" href="/img/common/icon.ico" />
+	<title>Car Supply Chain</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/tables.css" />
+	<link rel='stylesheet' type='text/css' href='css/timepicki.css' />
+	<link rel="stylesheet" href="css/jquery-ui-timepicker-addon.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.ui.datepicker.css" type="text/css" />
+	<link rel='stylesheet' type='text/css' href='css/jquery-confirm.css' />
+	<link rel='stylesheet' type='text/css' href='css/jquery.alerts.css' />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-5.0.2-dist/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/keyboard.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-5.0.2-dist/bootstrap-icons/bootstrap-icons.css" />
+
+	<!-- jQuery & jQuery UI + theme (required) -->
+	<link href="css/jquery-ui.min.css" rel="stylesheet" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<!--<script src="js/bootstrap.min.js"></script>  -->
+	<script src="js/bootstrap-5.0.2-dist/bootstrap.bundle.min.js"></script>
+
+
+
+	<link href="css/jquery-ui.css" rel="stylesheet" />
+	<script src="js/timepicki.js"></script>
+	<!-- keyboard extensions (optional) -->
+	<script src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery/commonElements.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery-1.6.1.js"></script>
+	<!--<script type="text/javascript" src="js/jquery/jquery-1.11.0.js"></script>-->
+	<script type="text/javascript" src="js/jquery/jquery-ui-1.8.11.custom.min.js"></script>
+	<!--<script type='text/javascript' src='js/jquery/jquery-migrate-1.1.1.js'></script>-->
+	<script type='text/javascript' src='js/jquery/jquery.autocomplete.js'></script>
+	<script type="text/javascript" src="js/jquery/jquery.tablesorter.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.tablesorter.pager.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-timepicker-addon.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-timepicker-addon-es.js"></script>
+	<script type="text/javascript" src="js/jquery-confirm.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.form.js"></script>
+	<script type="text/javascript" src="js/ui-datepicker-es.js"></script>
+
+	<script type="text/javascript" src="js/jquery-confirm.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.form.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.alerts.js"></script>
+
+	<!--[if IE]>
+		<link href="css/ie.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+</head>
+<body>
+	<div id="container" class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="index.html"><img src="img/common/logo.png" height='50' alt="logo" /></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  Cadena de suministro
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <li><a class="dropdown-item" href="manufacturer.html">Fabricante</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item" href="distributor.html">Distribuidor</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item" href="retailer.html">Almacén</a></li>
+					  <li><hr class="dropdown-divider"></li>	  
+					  <li><a class="dropdown-item" href="consumer.html">Cliente</a></li>
+					</ul>
+				  </li>
+				  <!--
+				  <li class="nav-item">
+					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+				  </li>
+				</ul>
+				-->
+				<div class="text-center col col-8"><h1>Car Parts Supply Chain</h1></div>
+			  </div>
+			</div>
+		  </nav>
+		  <div class="toast-container">
+			<div class="toast show">
+				<div class="toast-header">
+					<strong id="toastHeader" class="me-auto">Toast Header</strong>
+					<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+				</div>
+				<div id="toastBody" class="toast-body">
+					Some text inside the toast body
+				</div>
+			</div>
+		</div>
+       
+		<div class="row justify-content-center">
+		
+			<div class="col">
+				<label for="txtUPC">Identificador UPC:</label>
+		        <input type="text" id="txtUPC" name="txt_UPC" maxlength="20" />		
+			</div>
+
+		</div>
+		<br />
+		<br />
+		<table id="tabla_piezas" class="display compact" style="width:100%">
+			<thead>
+				<tr>
+					<th>Identificador pieza - UPC </th>
+					<th>Fabricante</th>					
+				</tr>
+			</thead>
+		</table>
+		
+		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>-->
+		<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="js/jquery.geturlvars.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+		<script type="text/javascript" src="js/app_index.js"></script>
+		<script type="text/javascript" src="js/keyboard.js" charset="UTF-8"></script>
+		<!-- keyboard widget css & script (required) -->
+		<link href="css/keyboard.css" rel="stylesheet" />
+		<script src="js/jquery.keyboard.js"></script>
+	</div></body>
+</html>
