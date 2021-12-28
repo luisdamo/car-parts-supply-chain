@@ -1,0 +1,160 @@
+.buscador {
+    align-content: center;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-width: 0.1vw;
+    background-color: #f2f2f2;
+}
+
+.lbl {
+    font-weight: bold;
+    font-size: 1.7vw;
+    font-family: Helvetica, Arial;
+}
+.lbltxt {
+    font-weight: normal;
+    font-size: 1.6vw;
+    font-family: Helvetica, Arial;
+}
+
+#logo {
+    width: 6vw;
+    height: auto;
+}
+
+#headBuscador {
+    text-align: center;
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    color: white;
+    font-size: 2.5vw;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1vw;
+    border-width: 0.1vw;
+    background-color: #0075c9;
+    margin:0.1vw;
+}
+.lineBuscador{
+	margin:1vw;
+}
+
+.s20 {
+    display: inline-block;
+    width: 20%;
+}
+.s40 {
+    display: inline-block;
+    width: 55%;
+}
+
+.inputBox3 {
+    /*width: 3vw;
+    height: auto;*/
+    font-size: 1.8vw;
+    text-align: center
+}
+/*Ion Lizarazu */
+.bonoSelector{
+  padding: 8px 16px;
+    
+}
+.bonoSelector option{
+  font-size: 1vw;
+}
+
+.rowStyle th{
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+.rowStyle td:nth-child(1){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+.rowStyle td:nth-child(2){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+.rowStyle td:nth-child(3){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+.rowStyle td:nth-child(4){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 1vw;
+}
+.rowStyle td:nth-child(5){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+.rowStyle td:nth-child(6){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+.rowStyle td:nth-child(7){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+.rowStyle td:nth-child(8){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+.rowStyle td:nth-child(9){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+.rowStyle td:nth-child(10){
+  font-size: 1vw;
+  font-weight: bold;
+  padding-right: 1vw;
+  text-align: right;
+}
+
+.rowStyle td:nth-child(11){
+  font-size: 1vw;
+  font-weight: bold;
+  padding-right: 1vw;
+  text-align: right;
+}
+
+.rowStyle td:nth-child(12){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+.rowStyle td:nth-child(13){
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.locked {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.toggle-off{
+    background-color: #A90F3D !important;
+    color: white !important;
+}
+
+.toggle-on{
+    background-color: #6CC04A !important;
+    color: white !important;
+}

@@ -1,0 +1,8 @@
+.ui-timepicker-div .ui-widget-header {
+    background: #0075C9;
+    color: #fff;
+}
+
+.ui_tpicker_hour_slider a.ui-slider-handle, .ui_tpicker_minute_slider a.ui-slider-handle {
+    background: #6CC04A;
+}

@@ -1,0 +1,108 @@
+.icons{
+    font-size:3em;
+    display:inline;
+    margin-left: 15px;
+}
+.iconsSmall {
+    font-size: 2em;
+    display: inline;
+    margin-left: 15px;
+}
+.iconsBig{
+	font-size:5em;
+    display:inline-block;
+    margin-left: 15px;
+}
+.iconsContainer{
+	margin-top: 15px;
+	text-align: center;
+}
+.iconEdit{
+    color:#0075C9;    
+}
+.iconEdit:after{
+	content: '\f044';
+	font-family:'Font Awesome 5 Free';
+}
+.iconEdit:active{
+	font-weight: bolder;
+}
+.iconSave{
+    color:#0075C9;
+    display: none;
+}
+.iconSave:after{
+    content: "\f0c7";
+    font-family: 'Font Awesome 5 Free';
+}
+.iconSave:active{
+	font-weight: bolder;
+}
+.iconCopy{
+    color:#0075C9;
+}
+.iconCopy:after{
+    content: "\f0c5";
+    font-family: 'Font Awesome 5 Free';
+}
+.iconCopy:active{
+	font-weight: bolder;
+}
+.iconDelete{
+    color:red;
+}
+.iconDelete:after{
+    content: "\f2ed";
+    font-family: 'Font Awesome 5 Free';
+}
+.iconDelete:active{
+	font-weight: bolder;
+}
+.iconCreate{
+    color:#6CC04A;
+}
+.iconCreate:after{
+    content: "\f0fe";
+    font-family: 'Font Awesome 5 Free';
+}
+.iconCreate:active{
+	font-weight: bolder;
+}
+
+.iconCancel {
+    color: #bd2806;
+}
+
+.iconCancel:after {
+    content: "\f410";
+    font-family: 'Font Awesome 5 Free';
+}
+
+.iconCancel:active {
+    font-weight: bolder;
+}
+
+.iconSearch {
+    color: #606369;
+}
+
+.iconSearch:after {
+    content: "\f002";
+    font-family: 'Font Awesome 5 Free';
+}
+
+.iconSearch:active {
+    font-weight: bolder;
+}
+.iconInfo {
+    color: #0075c9;
+}
+
+.iconInfo:after {
+    content: "\f05a";
+    font-family: 'Font Awesome 5 Free';
+}
+
+.iconInfo:active {
+    font-weight: bolder;
+}

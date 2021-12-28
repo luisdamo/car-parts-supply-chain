@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+	body {
+	/*font: 71%/1.5 Verdana, Sans-Serif;*/
+	font: 100%/2.0 Verdana, Sans-Serif;
+	/*background: #555555; */
+	/*background-color: #555555; */
+		/*background: #39393C;*/
+		/*background-color: #39393C;*/ /* color has to be the same as gif image's bottom border*/
+		/*background: #39393C url('/images/pageImages/html_bg.png') repeat-x scroll;*/
+		background: #ffffff; 
+	}
+	
+	.barra_botones {
+		margin: 0 0 0 0;
+		margin-top: 20px;
+		width: 190px;
+		height: 80px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+		display: inline-block;
+		border-color: #3c3c3c;
+		border-style: solid;
+		border-width: 4px;
+		background-color: #5c6f7b;
+		color: #ffffff;
+		font-size: 25px;
+	}
+	
+	
+	#container form img
+	{
+		margin: 0 0 0 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 100px;
+	}
+	
